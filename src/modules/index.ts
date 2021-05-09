@@ -1,6 +1,5 @@
 import {combineReducers} from 'redux'
-import todos from './todos'
-
-const rootReducer = combineReducers({todos});
+import {github} from './github'
+const rootReducer = combineReducers({github});
 export default rootReducer;
 export type RootState =ReturnType<typeof rootReducer>
