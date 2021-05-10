@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import './GithubUsernameForm.css';
+import './GitHubUsernameForm.css';
 
 type GithubUsernameFormProps={
     onSubmitUsername :(username:string)=> void;
@@ -18,9 +18,11 @@ function  GithubUsernameForm({onSubmitUsername}:GithubUsernameFormProps){
     }
 
     return (
-        <form onSubmit={onSubmit} className="GithubUsernameFrom">
+        <form onSubmit={onSubmit} className="GithubUsernameForm">
             <input onChange={onChange} value ={input} placeholder="GITHUB 계정명을 입력해주세요"/>
             <button type ="submit">조회</button>
         </form>
     )
 }
+
+export default GithubUsernameForm

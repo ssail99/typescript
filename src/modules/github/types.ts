@@ -1,5 +1,5 @@
 import { ActionType } from 'typesafe-actions'
-import { GithubProfile } from '../api/github';
+import { GithubProfile } from '../../api/github';
 import * as actions from './action'
 
 export type GithubAction = ActionType<typeof actions>;

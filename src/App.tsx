@@ -1,7 +1,7 @@
-import TodoApp from "./container/TodoApp"
+import GithubProfileLoader from './components/GithubProfileLoader'
 import React from 'react'
 const App:React.FC = ()=>{
-  return  <TodoApp/>
+  return  <GithubProfileLoader></GithubProfileLoader>
 }
 
 export default App;

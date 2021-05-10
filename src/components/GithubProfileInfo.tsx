@@ -1,4 +1,5 @@
-import 'GithubProfileInfo.css'
+import React from 'react';
+import './GithubProfileInfo.css'
 
 type GithubProfileInfoProps ={
     name :string
@@ -7,7 +8,7 @@ type GithubProfileInfoProps ={
     blog:string;
 }
 
-function GithubProfileInfo({name ,thumbnail,bio, blog}:GithubProfileInfoProps){
+function GithubProfileInfo({name, thumbnail, bio, blog}:GithubProfileInfoProps){
     return(
         <div className="GithubProfileInfo">
             <div className="profile-head">
